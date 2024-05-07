@@ -110,4 +110,23 @@ button[type="submit"]:hover {
 #right button:hover {
     background-color: rgb(183, 138, 224);
     transition: .3s;
+
+
+
+}
+
+
+@keyframes slide-in {
+
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.container {
+    animation: slide-in 1s ease-out;
+
 }
